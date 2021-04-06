@@ -1,0 +1,76 @@
+{
+    "name": "nswdpc/silverstripe-content-boilerplate",
+    "description": "A collection of modules we use to help our content authors make great websites",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "James Ellis",
+            "homepage": "https://dpc.nsw.gov.au",
+            "role": "Developer"
+        },
+        {
+            "name": "Mark Taylor",
+            "homepage": "https://dpc.nsw.gov.au",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+      "silverstripe",
+      "content",
+      "content authoring",
+      "user experience"
+    ],
+    "require": {
+        "axllent/silverstripe-trailing-slash": "^2.2.0",
+        "bummzack/sortablefile": "^2.1.0",
+        "codem/silverstripe-damn-fine-uploader": "^0.3",
+        "dnadesign/silverstripe-elemental": "^4.5.0",
+        "dnadesign/silverstripe-elemental-list": "^1.2.0",
+        "dnadesign/silverstripe-elemental-virtual": "^1.2.2",
+        "dnadesign/silverstripe-elemental-userforms": "^3.0.0",
+        "dynamic/silverstripe-elemental-section-navigation": "^2.0.0",
+        "firebrandhq/silverstripe-phonelink": "^2.1.0",
+        "gorriecoe/silverstripe-embed": "^1.0.0",
+        "gorriecoe/silverstripe-linkfield": "^1.0.0",
+        "jonom/focuspoint": "^3.1.0",
+        "jonom/silverstripe-text-target-length": "^2.0.0",
+        "nglasl/silverstripe-mediawesome": "^4.0.0",
+        "nglasl/silverstripe-misdirection": "^3.1.0",
+        "nswdpc/silverstripe-dataobject-editable": "^0.1",
+        "nswdpc/silverstripe-elemental-banner": "dev-master",
+        "nswdpc/silverstripe-elemental-decoratedcontent": "^0.1",
+        "nswdpc/silverstripe-elemental-extensible-search": "dev-master",
+        "nswdpc/silverstripe-elemental-feature-video": "~0.1.0",
+        "nswdpc/silverstripe-elemental-iframe": "~0.1.0",
+        "nswdpc/silverstripe-elemental-image": "^0.1",
+        "nswdpc/silverstripe-elemental-links": "^0.1",
+        "nswdpc/silverstripe-elemental-mediawesome": "^0.1",
+        "nswdpc/silverstripe-elemental-modeladmin": "^0.1",
+        "nswdpc/silverstripe-elemental-quickgallery": "^0.1",
+        "nswdpc/silverstripe-elemental-slider": "~0.1.0",
+        "nswdpc/silverstripe-elemental-taxonomy": "^0.1",
+        "nswdpc/silverstripe-inline-linker": "dev-master",
+        "nswdpc/silverstripe-search-boilerplate": "dev-master",
+        "nswdpc/silverstripe-thereisnouserform" : "*",
+        "silverstripe/contentreview": "^4.1.0",
+        "silverstripe/lumberjack": "^2.0.0",
+        "silverstripe/recipe-cms" : "^4.7",
+        "silverstripe/sharedraftcontent": "^2.3.0",
+        "silverstripe/userforms": "^5.8.0",
+        "silverstripe/versioned-admin": "^1.7",
+        "symbiote/silverstripe-advancedworkflow": "^5.2.0",
+        "symbiote/silverstripe-contentreplace": "^2.0.0",
+        "symbiote/silverstripe-datachange-tracker": "^5.0.0",
+        "symbiote/silverstripe-dynamiclists": "^2.0.0",
+        "symbiote/silverstripe-elemental-listingpagelisting": "^2.0.0",
+        "symbiote/silverstripe-listingpage": "^2.3.0",
+        "symbiote/silverstripe-multivaluefield": "^5.0.0",
+        "wilr/silverstripe-googlesitemaps": "^2.1.0"
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
