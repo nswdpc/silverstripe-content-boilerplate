@@ -40,7 +40,6 @@
         "nswdpc/silverstripe-dataobject-editable": "^0.1",
         "nswdpc/silverstripe-elemental-banner": "dev-master",
         "nswdpc/silverstripe-elemental-decoratedcontent": "^0.1",
-        "nswdpc/silverstripe-elemental-extensible-search": "dev-master",
         "nswdpc/silverstripe-elemental-feature-video": "~0.1.0",
         "nswdpc/silverstripe-elemental-iframe": "~0.1.0",
         "nswdpc/silverstripe-elemental-image": "^0.1",
@@ -64,8 +63,10 @@
         "symbiote/silverstripe-datachange-tracker": "^5.0.0",
         "symbiote/silverstripe-dynamiclists": "^2.0.0",
         "symbiote/silverstripe-elemental-listingpagelisting": "^2.0.0",
+        "symbiote/silverstripe-grouped-cms-menu": "^4.0",
         "symbiote/silverstripe-listingpage": "^2.3.0",
         "symbiote/silverstripe-multivaluefield": "^5.0.0",
+        "symbiote/silverstripe-usertemplates": "^2.1.0",
         "wilr/silverstripe-googlesitemaps": "^2.1.0"
     },
     "config": {
