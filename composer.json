@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type":"vcs",
-            "url": "git@gitlab.symbiote.com.au:dpc/silverstripe-search-boilerplate.git"
+            "url": "git@github.com:nswdpc/silverstripe-search-boilerplate.git"
         }
     ],
     "require": {
