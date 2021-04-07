@@ -5,6 +5,19 @@ Page:
   extensions:
     - DNADesign\Elemental\Extensions\ElementalPageExtension
 ---
+Name: app-content-workflow
+---
+Symbiote\AdvancedWorkflow\Actions\NotifyUsersWorkflowAction:
+  whitelist_template_variables: true
+Page:
+  extensions:
+    - Symbiote\AdvancedWorkflow\Extension\ContentApproversExtension
+    - Symbiote\AdvancedWorkflow\Extension\ElementalPageWorkflowExtension
+    - Symbiote\AdvancedWorkflow\Extensions\WorkflowEmbargoExpiryExtension
+DNADesign\Elemental\Models\BaseElement:
+  extensions:
+    - Symbiote\AdvancedWorkflow\Extension\WorkflowedElement
+---
 Name: nswdpc-content-sitemaps
 After:
   - '#googlesitemaps'
