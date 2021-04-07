@@ -21,6 +21,12 @@
       "content authoring",
       "user experience"
     ],
+    "repositories": [
+        {
+            "type":"vcs",
+            "url": "git@gitlab.symbiote.com.au:dpc/silverstripe-search-boilerplate.git"
+        }
+    ],
     "require": {
         "axllent/silverstripe-trailing-slash": "^2.2.0",
         "bummzack/sortablefile": "^2.1.0",
