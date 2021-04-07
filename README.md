@@ -21,7 +21,7 @@ A [default boilerplate configuration is available](./_config/config.yml). This c
 The only supported way of installing this module is via [composer](https://getcomposer.org)
 
 ```shell
-composer require nswdpc/silverstripe-content-recipe
+composer require nswdpc/silverstripe-content-boilerplate
 ```
 
 ## LICENSE
