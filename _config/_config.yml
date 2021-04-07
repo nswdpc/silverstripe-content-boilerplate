@@ -26,3 +26,16 @@ SilverStripe\Taxonomy\TaxonomyTerm:
   is_css: true
   is_filename: false
   filename_path: ''
+---
+Name: nswdpc-content-userforms
+After:
+  - '#userformsconfig'
+---
+SilverStripe\UserForms\Model\UserDefinedForm:
+  block_default_userforms_css: true
+
+SilverStripe\UserForms\Control\UserDefinedFormController:
+  disable_form_content_shortcode: true
+
+SilverStripe\UserForms\Model\Recipient\EmailRecipient:
+  allow_unbound_recipient_fields: true
