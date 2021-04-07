@@ -15,3 +15,14 @@ Wilr\GoogleSitemaps\GoogleSitemap:
   google_notification_enabled: true
   bing_notification_enabled: true
   use_show_in_search: true
+---
+Name: 'nswdpc-content-taxonomy-icon'
+After:
+  - '#nswdpc-taxonomy-icon'
+---
+# use CSS as the default icon system
+SilverStripe\Taxonomy\TaxonomyTerm:
+  is_upload: false
+  is_css: true
+  is_filename: false
+  filename_path: ''
