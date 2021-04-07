@@ -1,3 +1,6 @@
 ---
 Name: nswdpc-content-boilerplate
 ---
+Page:
+  extensions:
+    - DNADesign\Elemental\Extensions\ElementalPageExtension
