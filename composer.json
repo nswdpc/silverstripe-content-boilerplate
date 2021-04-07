@@ -25,6 +25,10 @@
         {
             "type":"vcs",
             "url": "git@github.com:nswdpc/silverstripe-search-boilerplate.git"
+        },
+        {
+            "type":"vcs",
+            "url": "git@github.com:nswdpc/silverstripe-thereisnouserform.git"
         }
     ],
     "require": {
