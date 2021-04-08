@@ -39,6 +39,7 @@
         "dnadesign/silverstripe-elemental-list": "^1.2.0",
         "dnadesign/silverstripe-elemental-virtual": "^1.2.2",
         "dnadesign/silverstripe-elemental-userforms": "^3.0.0",
+        "drmartingonzo/tinymce-ss4-theme": "^1.0.0",
         "dynamic/silverstripe-elemental-section-navigation": "^2.0.0",
         "firebrandhq/silverstripe-phonelink": "^2.1.0",
         "fromholdio/silverstripe-errorpagesconfig": "^1.0.0",
