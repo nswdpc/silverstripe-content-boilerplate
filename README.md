@@ -1,12 +1,10 @@
 # Silverstripe content boilerplate
 
-Default modules and configuration for content authoring in a Silverstripe website.
+A collection of modules and standard configuration for content authoring in a Silverstripe website, beyond those provided in `silvertripe/recipe-cms`
 
 - Content creation via elemental
 - Versioned record discovery
 - Content administration tools
-
-> If you are creating a standard NSW site, use the `nswdpc/silverstripe-nsw-recipe` of which this boilerplate forms a part.
 
 ## Modules
 
