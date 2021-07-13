@@ -50,6 +50,7 @@
         "nswdpc/silverstripe-elemental-links": "^0.1",
         "nswdpc/silverstripe-elemental-mediawesome": "^0.1",
         "nswdpc/silverstripe-elemental-modeladmin": "^0.1",
+        "nswdpc/silverstripe-elemental-publications": "^0.1",
         "nswdpc/silverstripe-elemental-quickgallery": "^0.1",
         "nswdpc/silverstripe-elemental-slider": "^0.2.1",
         "nswdpc/silverstripe-elemental-taxonomy": "^0.1",
