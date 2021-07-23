@@ -1,0 +1,4 @@
+.cms-edit-form .toolbar--south {
+  /* visually separate editor areas from the south panel */
+  box-shadow: 0 0px 12px 0px rgba(0, 0, 0, 0.2);
+}
