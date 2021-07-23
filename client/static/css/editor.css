@@ -1,8 +1,3 @@
-.toolbar--south {
-  /* visually separate editor areas from the south panel */
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 12px 0px;
-}
-
 *,
 :before,
 :after {
