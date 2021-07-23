@@ -82,6 +82,11 @@
     "config": {
         "process-timeout": 600
     },
+    "extra": {
+        "expose": [
+            "client/static"
+        ]
+    },
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
