@@ -72,12 +72,18 @@
         "symbiote/silverstripe-datachange-tracker": "^5.0.0",
         "symbiote/silverstripe-dynamiclists": "^2.0.0",
         "symbiote/silverstripe-elemental-listingpagelisting": "^2.0.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3.2",
         "symbiote/silverstripe-grouped-cms-menu": "^4.0",
         "symbiote/silverstripe-listingpage": "^2.3.0",
         "symbiote/silverstripe-multivaluefield": "^5.0.0",
         "symbiote/silverstripe-usertemplates": "^2.1.0",
         "unclecheese/display-logic": "^2.0.0",
         "wilr/silverstripe-googlesitemaps": "^2.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NSWDPC\\Content\\": "src/"
+        }
     },
     "config": {
         "process-timeout": 600

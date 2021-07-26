@@ -47,3 +47,24 @@ SilverStripe\UserForms\Control\UserDefinedFormController:
 
 SilverStripe\UserForms\Model\Recipient\EmailRecipient:
   allow_unbound_recipient_fields: true
+---
+Name: nswdpc-content-gridfield-defaults
+Before:
+  - '#gridfieldextensions'
+---
+Symbiote\GridFieldExtensions\GridFieldConfigurablePaginator:
+  default_page_sizes: null
+---
+Name: nswdpc-content-gridfield
+After:
+  - '#gridfieldextensions'
+---
+SilverStripe\Forms\GridField\GridFieldConfig:
+  extensions:
+    - 'NSWDPC\Content\GridFieldConfigExtension'
+SilverStripe\Forms\GridField\GridFieldPaginator:
+  default_items_per_page: 30
+SilverStripe\Admin\ModelAdmin:
+  page_length: 30
+Symbiote\GridFieldExtensions\GridFieldConfigurablePaginator:
+  default_page_sizes: [ 15, 30, 60, 100, 200, 500, 1000 ]
