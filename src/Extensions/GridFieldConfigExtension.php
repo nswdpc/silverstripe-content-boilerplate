@@ -19,7 +19,7 @@ class GridFieldConfigExtension extends Extension {
      */
     public function updateConfig() {
         // work out whether Items per Page was set, and use that
-        $itemsPagePage = null;
+        $itemsPerPage = null;
         if($paginator = $this->owner->getComponentByType( GridFieldPaginator::class )) {
             $itemsPerPage = $paginator->getItemsPerPage();
         }
