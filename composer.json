@@ -60,6 +60,7 @@
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^0.1",
         "nswdpc/silverstripe-search-boilerplate": "dev-master",
         "nswdpc/silverstripe-thereisnouserform" : "*",
+        "purplespider/asset-alt-text": "dev-master",
         "silverstripe/contentreview": "^4.1.0",
         "silverstripe/gridfieldqueuedexport": "^2.3.0",
         "silverstripe/lumberjack": "^2.0.0",
