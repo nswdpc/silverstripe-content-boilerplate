@@ -53,6 +53,7 @@
         "nswdpc/silverstripe-elemental-modeladmin": "^0.1",
         "nswdpc/silverstripe-elemental-publications": "^0.1",
         "nswdpc/silverstripe-elemental-quickgallery": "^0.1",
+        "nswdpc/silverstripe-schema-specialannouncement": "^0.1",
         "nswdpc/silverstripe-elemental-slider": "^0.2.1",
         "nswdpc/silverstripe-elemental-taxonomy": "^0.1",
         "nswdpc/silverstripe-inline-linker": "dev-master",
