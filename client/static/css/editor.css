@@ -1,0 +1,134 @@
+*,
+:before,
+:after {
+  box-sizing: border-box
+}
+
+html {
+  font-size: 16px
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 1rem;
+  color: #383838;
+  font-weight: 400;
+  line-height: 1.75
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+}
+
+thead td,
+th {
+  font-style: normal;
+}
+
+th,
+td {
+  vertical-align: top;
+}
+
+.mce-content-body.typography img {
+  height: auto
+}
+
+.mce-content-body.typography img.left {
+  float: left;
+  max-width: 50%;
+  margin: 5px 20px 10px 0
+}
+
+.mce-content-body.typography img.right {
+  float: right;
+  max-width: 50%;
+  margin: 5px 0 10px 20px
+}
+
+.mce-content-body.typography img.leftAlone {
+  float: left;
+  margin-right: 100%;
+  margin-bottom: 10px;
+  clear: both
+}
+
+.mce-content-body.typography img.rightAlone {
+  float: right;
+  margin-left: 100%;
+  margin-bottom: 10px;
+  clear: both
+}
+
+.mce-content-body.typography img.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10px;
+  clear: both
+}
+
+.mce-content-body.typography .captionImage {
+  width: 100%;
+  margin-top: 5px
+}
+
+.mce-content-body.typography .captionImage img {
+  margin: 0
+}
+
+.mce-content-body.typography .captionImage.left {
+  float: left;
+  margin: 5px 30px 20px 0px
+}
+
+.mce-content-body.typography .captionImage.right {
+  float: right;
+  margin: 5px 0 20px 30px
+}
+
+.mce-content-body.typography .captionImage.left[style],
+.mce-content-body.typography .captionImage.right[style] {
+  max-width: 50%
+}
+
+.mce-content-body.typography .captionImage.left img,
+.mce-content-body.typography .captionImage.right img {
+  float: none;
+  max-width: none;
+  width: 100%
+}
+
+.mce-content-body.typography .captionImage.left img {
+  margin-right: -10px
+}
+
+.mce-content-body.typography .captionImage.right img {
+  margin-left: -10px
+}
+
+.mce-content-body.typography .captionImage.right p {
+  margin-left: -10px;
+  text-align: left;
+  margin-left: -10px
+}
+
+.mce-content-body.typography .captionImage.leftAlone {
+  float: none;
+  margin: 0 20px 20px 0px
+}
+
+.mce-content-body.typography .captionImage.center {
+  margin: 0 auto 20px
+}
+
+.mce-content-body.typography .captionImage p {
+  clear: both
+}
