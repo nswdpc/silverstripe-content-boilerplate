@@ -9,7 +9,7 @@ Name: nswdpc-content-leftandmain
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
-    - 'vendor/nswdpc/silverstripe-content-boilerplate/client/static/css/leftandmain.css'
+    - 'nswdpc/silverstripe-content-boilerplate:client/static/css/leftandmain.css'
 ---
 Name: app-content-workflow
 ---
