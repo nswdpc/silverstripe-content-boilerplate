@@ -46,7 +46,7 @@ After:
   - '#userformsconfig'
 ---
 SilverStripe\UserForms\Model\UserDefinedForm:
-  block_default_userforms_css: true
+  block_default_userforms_css: false
 
 SilverStripe\UserForms\Control\UserDefinedFormController:
   disable_form_content_shortcode: true
