@@ -22,6 +22,8 @@ Page:
 Name: nswdpc-content-sitemaps
 After:
   - '#googlesitemaps'
+Only:
+  environment: 'live'
 ---
 Wilr\GoogleSitemaps\GoogleSitemap:
   enabled: true
