@@ -35,7 +35,7 @@
         "firebrandhq/silverstripe-phonelink": "^2.1.0",
         "fromholdio/silverstripe-errorpagesconfig": "^1.0.0",
         "gorriecoe/silverstripe-embed": "^1.0.0",
-        "gorriecoe/silverstripe-linkfield": "^1.0.0",
+        "gorriecoe/silverstripe-linkfield": "^1.0.1",
         "innoweb/silverstripe-robots": "^1.1.0",
         "innoweb/silverstripe-social-metadata": "^5.1.0",
         "jonom/focuspoint": "^3.1.0",
