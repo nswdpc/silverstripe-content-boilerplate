@@ -43,7 +43,7 @@
         "nglasl/silverstripe-mediawesome": "^4.0.0",
         "nglasl/silverstripe-misdirection": "^3.1.0",
         "nswdpc/silverstripe-dataobject-editable": "^0.1",
-        "nswdpc/silverstripe-elemental-banner": "dev-master",
+        "nswdpc/silverstripe-elemental-banner": "^0.1",
         "nswdpc/silverstripe-elemental-decoratedcontent": "^0.1",
         "nswdpc/silverstripe-elemental-feature-video": "^0.3",
         "nswdpc/silverstripe-elemental-iframe": "^0.2.1",
