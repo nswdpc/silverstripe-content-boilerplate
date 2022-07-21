@@ -68,7 +68,7 @@
         "silverstripe/recipe-cms": "^4.10.0",
         "silverstripe/sharedraftcontent": "^2.7.0",
         "silverstripe/userforms": "^5.13.0",
-        "silverstripe/versioned-admin": "^1.11.0",
+        "silverstripe/versioned-admin": "^1.10.0",
         "symbiote/silverstripe-advancedworkflow": "^5.7.0",
         "symbiote/silverstripe-contentreplace": "^2.0.1",
         "symbiote/silverstripe-datachange-tracker": "^5.0.3",
