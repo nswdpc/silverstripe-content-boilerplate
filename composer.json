@@ -69,7 +69,7 @@
         "silverstripe/sharedraftcontent": "^2.3.0",
         "silverstripe/userforms": "^5.8.0",
         "silverstripe/versioned-admin": "^1.7",
-        "symbiote/silverstripe-advancedworkflow": "^5.7.0",
+        "symbiote/silverstripe-advancedworkflow": "^5.5.1",
         "symbiote/silverstripe-contentreplace": "^2.0.0",
         "symbiote/silverstripe-datachange-tracker": "^5.0.0",
         "symbiote/silverstripe-dynamiclists": "^2.0.0",
