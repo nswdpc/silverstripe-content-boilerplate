@@ -132,3 +132,33 @@ td {
 .mce-content-body.typography .captionImage p {
   clear: both
 }
+
+/* Highliting accessibility errors in HTML */
+
+/*  highlight images missing alt tag */
+img:not([alt]) {
+  outline: 5px solid red !important;
+}
+
+/*  highlight images missing alt text */
+img[alt=""] {
+  outline: 5px solid orange !important;
+}
+
+/* highlight on all elements that are inside of lists but not a list item <li> and displays them with a red outline.*/
+:is(ul, ol) > *:not(li) {
+  outline: 2px solid red !important;
+}
+
+/* highlight on links without valid href attribute */
+a:not([href]),
+a[href="#"],
+a[href=""],
+a[href="[sitetree_link]"],
+a[href*="javascript:void(0)"] {
+  outline: 2px solid red !important;
+}
+
+div,span {
+  outline: 2px solid red !important;
+}
