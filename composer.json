@@ -25,7 +25,7 @@
         "axllent/silverstripe-trailing-slash": "^2.2.0",
         "bigfork/silverstripe-simpledatefield": "^0.2",
         "bummzack/sortablefile": "^2.1.0",
-        "codem/silverstripe-damn-fine-uploader": "^0.3",
+        "codem/silverstripe-damn-fine-uploader": "^0.4",
         "dnadesign/silverstripe-elemental": "^4.5.0",
         "dnadesign/silverstripe-elemental-list": "^1.2.0",
         "dnadesign/silverstripe-elemental-virtual": "^1.2.2",
