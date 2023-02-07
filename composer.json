@@ -38,7 +38,7 @@
         "gorriecoe/silverstripe-linkfield": "^1.0.1",
         "innoweb/silverstripe-robots": "^3.1.0",
         "innoweb/silverstripe-social-metadata": "^5.1.0",
-        "jonom/focuspoint": "^3.1.0",
+        "jonom/focuspoint": "^4",
         "jonom/silverstripe-text-target-length": "^2.0.0",
         "nglasl/silverstripe-mediawesome": "^4.0.6",
         "nglasl/silverstripe-misdirection": "^3.1.1",
