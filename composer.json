@@ -57,7 +57,6 @@
         "nswdpc/silverstripe-elemental-slider": "^0.2.1",
         "nswdpc/silverstripe-elemental-taxonomy": "^0.1",
         "nswdpc/silverstripe-inline-linker": "dev-master",
-        "nswdpc/silverstripe-progressive-image": "^1.1",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^0.2",
         "nswdpc/silverstripe-search-boilerplate": "^0.2",
         "nswdpc/silverstripe-thereisnouserform" : "^0.1",
