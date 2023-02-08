@@ -1,6 +1,6 @@
 <?php
 use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
-use SilverStripe\Forms\HTMLEditor\HtmlEditorConfig;
+use SilverStripe\Forms\HTMLEditor\HTMLEditorConfig;
 
 TinyMCEConfig::get('cms')->setOption('height', 420);
 TinyMCEConfig::get('cms')->setOption('min_height', 420);
@@ -35,4 +35,4 @@ TinyMCEConfig::get('cms')->setOptions([
     'extended_valid_elements' => 'ol[start]',
 ]);
 
-HtmlEditorConfig::get('cms')->setOption('theme_advanced_styles', 'highlight=highlight;no-border=no-border,break=break');
+HTMLEditorConfig::get('cms')->setOption('theme_advanced_styles', 'highlight=highlight;no-border=no-border,break=break');
