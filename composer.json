@@ -77,7 +77,7 @@
         "symbiote/silverstripe-grouped-cms-menu": "^4.0.1",
         "symbiote/silverstripe-listingpage": "^2.3.3",
         "symbiote/silverstripe-multivaluefield": "^5.3.0",
-        "symbiote/silverstripe-usertemplates": "^2.1.0",
+        "symbiote/silverstripe-usertemplates": "^2.3.1",
         "unclecheese/display-logic": "^2.0.4",
         "wilr/silverstripe-googlesitemaps": "^2.2.1"
     },
