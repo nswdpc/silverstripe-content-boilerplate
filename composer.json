@@ -56,7 +56,6 @@
         "nswdpc/silverstripe-elemental-taxonomy": "^1",
         "nswdpc/silverstripe-inline-linker": "dev-master",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^1",
-        "nswdpc/silverstripe-search-boilerplate": "^0.2",
         "nswdpc/silverstripe-thereisnouserform" : "^1",
         "purplespider/asset-alt-text": "^1.2.1",
         "silverstripe/contentreview": "^5",
