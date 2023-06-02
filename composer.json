@@ -64,7 +64,7 @@
         "silverstripe/contentreview": "^4.5.0",
         "silverstripe/gridfieldqueuedexport": "^2.7.0",
         "silverstripe/lumberjack": "^2.2.0",
-        "silverstripe/recipe-cms": "^4.10.0",
+        "silverstripe/recipe-cms": "^5",
         "silverstripe/sharedraftcontent": "^2.7.0",
         "silverstripe/userforms": "^5.13.0",
         "silverstripe/versioned-admin": "^1.10.0",
