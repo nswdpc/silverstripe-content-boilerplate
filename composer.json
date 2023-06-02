@@ -22,7 +22,6 @@
       "user experience"
     ],
     "require": {
-        "axllent/silverstripe-trailing-slash": "^2.2.0",
         "bigfork/silverstripe-simpledatefield": "^0.2",
         "bummzack/sortablefile": "^2.1.0",
         "codem/silverstripe-damn-fine-uploader": "^0.4",
