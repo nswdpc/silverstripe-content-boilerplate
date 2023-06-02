@@ -22,7 +22,7 @@
       "user experience"
     ],
     "require": {
-        "bigfork/silverstripe-simpledatefield": "^0.2",
+        "nswdpc/silverstripe-datetime-inputs": "^1",
         "bummzack/sortablefile": "^2.1.0",
         "codem/silverstripe-damn-fine-uploader": "^0.4",
         "dnadesign/silverstripe-elemental": "^4.9.0",
