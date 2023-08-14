@@ -11,7 +11,7 @@ SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
     - 'nswdpc/silverstripe-content-boilerplate:client/static/css/leftandmain.css'
 ---
-Name: app-content-workflow
+Name: nswdpc-content-workflow
 ---
 Symbiote\AdvancedWorkflow\Actions\NotifyUsersWorkflowAction:
   whitelist_template_variables: true
