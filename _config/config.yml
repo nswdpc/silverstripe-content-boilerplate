@@ -71,3 +71,11 @@ SilverStripe\Admin\ModelAdmin:
   page_length: 100
 Symbiote\GridFieldExtensions\GridFieldConfigurablePaginator:
   default_page_sizes: [ 15, 30, 60, 100, 200, 500, 1000 ]
+
+---
+Name: nswdpc-content-phonefield
+---
+# Default to no geolocation service
+Innoweb\InternationalPhoneNumberField\Forms\InternationalPhoneNumberField:
+  geolocation_service: null
+  initial_country: 'au'
