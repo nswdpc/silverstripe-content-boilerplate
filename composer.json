@@ -54,7 +54,7 @@
         "nswdpc/silverstripe-schema-specialannouncement": "^1",
         "nswdpc/silverstripe-elemental-slider": "^1",
         "nswdpc/silverstripe-elemental-taxonomy": "^1",
-        "nswdpc/silverstripe-inline-linker": "dev-ss5",
+        "nswdpc/silverstripe-inline-linker": "^1",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^1",
         "nswdpc/silverstripe-thereisnouserform" : "^1",
         "purplespider/asset-alt-text": "^1.2.1",
