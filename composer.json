@@ -21,7 +21,7 @@
     ],
     "require": {
         "bummzack/sortablefile": "^2.2.0",
-        "codem/silverstripe-damn-fine-uploader": "^0.4",
+        "codem/silverstripe-damn-fine-uploader": "*",
         "dnadesign/silverstripe-elemental": "^5",
         "dnadesign/silverstripe-elemental-list": "^2",
         "dnadesign/silverstripe-elemental-virtual": "dev-main",
