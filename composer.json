@@ -20,7 +20,6 @@
       "user experience"
     ],
     "require": {
-        "nswdpc/silverstripe-datetime-inputs": "^1",
         "bummzack/sortablefile": "^2.2.0",
         "codem/silverstripe-damn-fine-uploader": "^0.4",
         "dnadesign/silverstripe-elemental": "^5",
@@ -39,6 +38,7 @@
         "nglasl/silverstripe-mediawesome": "*",
         "nglasl/silverstripe-misdirection": "*",
         "nswdpc/silverstripe-dataobject-editable": "^1",
+        "nswdpc/silverstripe-datetime-inputs": "^1",
         "nswdpc/silverstripe-elemental-banner": "^1",
         "nswdpc/silverstripe-elemental-decoratedcontent": "^1",
         "nswdpc/silverstripe-elemental-feature-video": "^1",
