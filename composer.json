@@ -45,7 +45,7 @@
         "nswdpc/silverstripe-elemental-iframe": "^1",
         "nswdpc/silverstripe-elemental-image": "^1",
         "nswdpc/silverstripe-elemental-links": "^1",
-        "nswdpc/silverstripe-elemental-mediawesome": "v1.0.0-rc1",
+        "nswdpc/silverstripe-elemental-mediawesome": "^1",
         "nswdpc/silverstripe-elemental-modeladmin": "^1",
         "nswdpc/silverstripe-elemental-publications": "^1",
         "nswdpc/silverstripe-elemental-quickgallery": "^1",
