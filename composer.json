@@ -55,7 +55,7 @@
         "nswdpc/silverstripe-inline-linker": "^1",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^1",
         "nswdpc/silverstripe-thereisnouserform" : "^1",
-        "purplespider/asset-alt-text": "^2",
+        "purplespider/asset-alt-text": "^1.2.1 || ^2",
         "silverstripe/contentreview": "^5",
         "silverstripe/gridfieldqueuedexport": "^3",
         "silverstripe/lumberjack": "^3",
