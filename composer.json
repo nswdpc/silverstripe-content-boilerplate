@@ -70,7 +70,7 @@
         "symbiote/silverstripe-elemental-listingpagelisting": "^2.0.2",
         "symbiote/silverstripe-gridfieldextensions": "^4",
         "symbiote/silverstripe-grouped-cms-menu": "^4.1",
-        "symbiote/silverstripe-listingpage": "^2.3.3",
+        "symbiote/silverstripe-listingpage": "dev-ss5",
         "symbiote/silverstripe-multivaluefield": "^6",
         "symbiote/silverstripe-usertemplates": "^2.1.0",
         "unclecheese/display-logic": "^3",
