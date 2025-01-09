@@ -26,7 +26,6 @@ TinyMCEConfig::get('cms')->insertButtonsAfter(
     'blockquote',
     'hr'
 );
-TinyMCEConfig::get('cms')->addButtonsToLine(1, '|', 'visualblocks');
 TinyMCEConfig::get('cms')->addButtonsToLine(2, '|', 'fullscreen');
 
 TinyMCEConfig::get('cms')->insertButtonsAfter('formatselect', 'styleselect');
