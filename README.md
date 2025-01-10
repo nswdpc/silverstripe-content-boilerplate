@@ -14,6 +14,8 @@ See [composer.json](./composer.json) for a full list of included modules.
 
 A [default boilerplate configuration is available](./_config/config.yml). This can be overridden on a per-project basis.
 
+See [documentation for updates and changes across versions](./docs/en/001_index.md).
+
 ## Installation
 
 The only supported way of installing this module is via [composer](https://getcomposer.org)
