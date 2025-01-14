@@ -34,7 +34,7 @@
         "innoweb/silverstripe-social-metadata": "^8",
         "jonom/focuspoint": "^5",
         "jonom/silverstripe-text-target-length": "^2.0.3",
-        "nglasl/silverstripe-mediawesome": "*",
+        "nglasl/silverstripe-mediawesome": "^5",
         "nglasl/silverstripe-misdirection": "*",
         "nswdpc/silverstripe-dataobject-editable": "^1",
         "nswdpc/silverstripe-datetime-inputs": "^1",
