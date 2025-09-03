@@ -2,13 +2,12 @@
 use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
 use SilverStripe\Forms\HTMLEditor\HTMLEditorConfig;
 
-TinyMCEConfig::get('cms')->setOption('height', 420);
-TinyMCEConfig::get('cms')->setOption('min_height', 420);
-TinyMCEConfig::get('cms')->setOption('max_height', 960);
+TinyMCEConfig::get('cms')->setOption('max_height', 600);
 
 TinyMCEConfig::get('cms')->removeButtons('underline', 'alignjustify');
 
 TinyMCEConfig::get('cms')->enablePlugins(
+    'autoresize',
     'fullscreen',
     'visualblocks',
     'anchor',
