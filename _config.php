@@ -11,7 +11,6 @@ TinyMCEConfig::get('cms')->removeButtons('underline', 'alignjustify');
 TinyMCEConfig::get('cms')->enablePlugins(
     'fullscreen',
     'visualblocks',
-    'hr',
     'anchor',
     'wordcount',
     'lists',
