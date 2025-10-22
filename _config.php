@@ -27,7 +27,7 @@ TinyMCEConfig::get('cms')->insertButtonsAfter(
 );
 TinyMCEConfig::get('cms')->addButtonsToLine(2, '|', 'fullscreen');
 
-TinyMCEConfig::get('cms')->insertButtonsAfter('formatselect', 'styleselect');
+TinyMCEConfig::get('cms')->insertButtonsAfter('blocks', 'styles');
 
 TinyMCEConfig::get('cms')->setOptions([
     'extended_valid_elements' => 'ol[start]',
