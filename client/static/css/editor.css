@@ -1,38 +1,32 @@
-*,
-:before,
-:after {
-  box-sizing: border-box
-}
-
-html {
-  font-size: 16px
-}
-
-body {
+/**
+ * Styles in the editor
+ */
+body.mce-content-body.typography {
   overflow-x: hidden;
   font-size: 1rem;
   color: #383838;
   font-weight: 400;
-  line-height: 1.75
+  line-height: 1.75;
+  font-size: 16px;
 }
 
-table {
+.mce-content-body.typography table {
   width: 100%;
 }
 
-table,
-th,
-td {
+.mce-content-body.typography table,
+.mce-content-body.typography th,
+.mce-content-body.typography td {
   border: 1px solid #000;
 }
 
-thead td,
-th {
+.mce-content-body.typography thead td,
+.mce-content-body.typography th {
   font-style: normal;
 }
 
-th,
-td {
+.mce-content-body.typography th,
+.mce-content-body.typography td {
   vertical-align: top;
 }
 
@@ -133,32 +127,33 @@ td {
   clear: both
 }
 
-/* Highliting accessibility errors in HTML */
+/* Highlighting accessibility errors in HTML */
 
 /*  highlight images missing alt tag */
-img:not([alt]) {
-  outline: 5px solid red !important;
+body.mce-content-body.typography img:not([alt]) {
+  outline: 5px solid blue !important;
 }
 
 /*  highlight images missing alt text */
-img[alt=""] {
+body.mce-content-body.typography img[alt=""] {
   outline: 5px solid orange !important;
 }
 
 /* highlight on all elements that are inside of lists but not a list item <li> and displays them with a red outline.*/
-:is(ul, ol) > *:not(li) {
-  outline: 2px solid red !important;
+body.mce-content-body.typography :is(ul, ol) > *:not(li) {
+  outline: 2px dashed green !important;
 }
 
 /* highlight on links without valid href attribute */
-a:not([href]),
-a[href="#"],
-a[href=""],
-a[href="[sitetree_link]"],
-a[href*="javascript:void(0)"] {
-  outline: 2px solid red !important;
+body.mce-content-body.typography a:not([href]),
+body.mce-content-body.typography a[href="#"],
+body.mce-content-body.typography a[href=""],
+body.mce-content-body.typography a[href="[sitetree_link]"],
+body.mce-content-body.typography a[href*="javascript:void(0)"] {
+  outline: 2px dashed red !important;
 }
 
-div,span {
-  outline: 2px solid red !important;
+body.mce-content-body.typography div,
+body.mce-content-body.typography span {
+    outline: 1px dashed magenta !important;
 }
