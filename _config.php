@@ -5,7 +5,7 @@ use SilverStripe\Forms\HTMLEditor\HTMLEditorConfig;
 TinyMCEConfig::get('cms')->setOption('min_height', 420);
 TinyMCEConfig::get('cms')->setOption('max_height', 600);
 
-TinyMCEConfig::get('cms')->removeButtons('underline', 'alignjustify');
+TinyMCEConfig::get('cms')->removeButtons('underline', 'alignjustify', 'blocks');
 
 TinyMCEConfig::get('cms')->enablePlugins(
     'autoresize',
@@ -27,10 +27,10 @@ TinyMCEConfig::get('cms')->insertButtonsAfter(
 );
 TinyMCEConfig::get('cms')->addButtonsToLine(2, '|', 'fullscreen');
 
-TinyMCEConfig::get('cms')->insertButtonsAfter('blocks', 'styles');
+TinyMCEConfig::get('cms')->setOption('importcss_append', true);
 
-TinyMCEConfig::get('cms')->setOptions([
-    'extended_valid_elements' => 'ol[start]',
-]);
+TinyMCEConfig::get('cms')->insertButtonsBefore('pastetext', 'styles');
+
+TinyMCEConfig::get('cms')->setOptions(['extended_valid_elements' => 'ol[start]',]);
 
 HTMLEditorConfig::get('cms')->setOption('theme_advanced_styles', 'highlight=highlight;no-border=no-border,break=break');
