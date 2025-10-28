@@ -1,7 +1,7 @@
 /**
  * Styles in the editor
  */
-body.mce-content-body.typography {
+.mce-content-body.typography {
   overflow-x: hidden;
   font-size: 1rem;
   color: #383838;
@@ -130,30 +130,30 @@ body.mce-content-body.typography {
 /* Highlighting accessibility errors in HTML */
 
 /*  highlight images missing alt tag */
-body.mce-content-body.typography img:not([alt]) {
-  outline: 5px solid blue !important;
+.mce-content-body.typography img:not([alt]) {
+  outline: 5px solid blue;
 }
 
 /*  highlight images missing alt text */
-body.mce-content-body.typography img[alt=""] {
-  outline: 5px solid orange !important;
+.mce-content-body.typography img[alt=""] {
+  outline: 5px solid orange;
 }
 
 /* highlight on all elements that are inside of lists but not a list item <li> and displays them with a red outline.*/
-body.mce-content-body.typography :is(ul, ol) > *:not(li) {
-  outline: 2px dashed green !important;
+.mce-content-body.typography :is(ul, ol) > *:not(li) {
+  outline: 2px dashed green;
 }
 
 /* highlight on links without valid href attribute */
-body.mce-content-body.typography a:not([href]),
-body.mce-content-body.typography a[href="#"],
-body.mce-content-body.typography a[href=""],
-body.mce-content-body.typography a[href="[sitetree_link]"],
-body.mce-content-body.typography a[href*="javascript:void(0)"] {
-  outline: 2px dashed red !important;
+.mce-content-body.typography a:not([href]),
+.mce-content-body.typography a[href="#"],
+.mce-content-body.typography a[href=""],
+.mce-content-body.typography a[href="[sitetree_link]"],
+.mce-content-body.typography a[href*="javascript:void(0)"] {
+  outline: 2px dashed red;
 }
 
-body.mce-content-body.typography div,
-body.mce-content-body.typography span {
-    outline: 1px dashed magenta !important;
+.mce-content-body.typography div,
+.mce-content-body.typography span {
+    outline: 1px dashed magenta;
 }
