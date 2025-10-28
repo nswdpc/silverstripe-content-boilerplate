@@ -27,8 +27,6 @@ TinyMCEConfig::get('cms')->insertButtonsAfter(
 );
 TinyMCEConfig::get('cms')->addButtonsToLine(2, '|', 'fullscreen');
 
-TinyMCEConfig::get('cms')->setOption('importcss_append', true);
-
 TinyMCEConfig::get('cms')->insertButtonsBefore('pastetext', 'styles');
 
 TinyMCEConfig::get('cms')->setOptions(['extended_valid_elements' => 'ol[start]',]);
