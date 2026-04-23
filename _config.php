@@ -1,14 +1,18 @@
 <?php
-use SilverStripe\Forms\HTMLEditor\TinyMCEConfig;
+
+use SilverStripe\TinyMCE\TinyMCEConfig;
 
 try {
 
-    TinyMCEConfig::get('cms')->setOption('min_height', 420);
-    TinyMCEConfig::get('cms')->setOption('max_height', 600);
+    /** @var \SilverStripe\TinyMCE\TinyMCEConfig $editorFieldConfig */
+    $editorFieldConfig = TinyMCEConfig::get('cms');
 
-    TinyMCEConfig::get('cms')->removeButtons('underline', 'alignjustify', 'blocks');
+    $editorFieldConfig->setOption('min_height', 420);
+    $editorFieldConfig->setOption('max_height', 600);
 
-    TinyMCEConfig::get('cms')->enablePlugins(
+    $editorFieldConfig->removeButtons('underline', 'alignjustify', 'blocks');
+
+    $editorFieldConfig->enablePlugins(
         'autoresize',
         'fullscreen',
         'visualblocks',
@@ -18,7 +22,7 @@ try {
         'advlist'
     );
 
-    TinyMCEConfig::get('cms')->insertButtonsAfter(
+    $editorFieldConfig->insertButtonsAfter(
         'removeformat',
         '|',
         'superscript',
@@ -26,14 +30,14 @@ try {
         'blockquote',
         'hr'
     );
-    TinyMCEConfig::get('cms')->addButtonsToLine(2, '|', 'fullscreen');
+    $editorFieldConfig->addButtonsToLine(2, '|', 'fullscreen');
 
-    TinyMCEConfig::get('cms')->insertButtonsBefore('pastetext', 'styles');
+    $editorFieldConfig->insertButtonsBefore('pastetext', 'styles');
 
-    TinyMCEConfig::get('cms')->setOptions(['extended_valid_elements' => 'ol[start]',]);
+    $editorFieldConfig->setOptions(['extended_valid_elements' => 'ol[start]',]);
 
-    if(is_null(TinyMCEConfig::get('cms')->getOption('style_formats'))) {
-        TinyMCEConfig::get('cms')->setOptions([
+    if (is_null($editorFieldConfig->getOption('style_formats'))) {
+        $editorFieldConfig->setOptions([
             'importcss_append' => true,
             'style_formats' => [
                 [
@@ -94,4 +98,5 @@ try {
         ]);
     }
 
-} catch (\Exception $exception) {}
+} catch (\Exception) {
+}
