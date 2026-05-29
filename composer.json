@@ -35,6 +35,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/nswdpc/silverstripe-misdirection.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nswdpc/silverstripe-elemental-section-navigation.git"
         }
     ],
     "require": {
@@ -43,6 +47,7 @@
         "dnadesign/silverstripe-elemental-list": "^3",
         "dnadesign/silverstripe-elemental-virtual": "^3",
         "dnadesign/silverstripe-elemental-userforms": "^5",
+        "dynamic/silverstripe-elemental-section-navigation": "dev-ss6",
         "firebrandhq/silverstripe-phonelink": "^4",
         "gorriecoe/silverstripe-linkfield": "dev-ss6",
         "innoweb/silverstripe-robots": "^6",
