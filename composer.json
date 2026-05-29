@@ -85,7 +85,7 @@
         "silverstripe/htmleditor-tinymce": "^1",
         "silverstripe/lumberjack": "^4",
         "silverstripe/mimevalidator": "^4",
-        "silverstripe/reports": "6",
+        "silverstripe/reports": "^6",
         "silverstripe/sharedraftcontent": "^4",
         "silverstripe/siteconfig": "^6",
         "silverstripe/userforms": "^7",
