@@ -22,14 +22,6 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-link.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-linkfield.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/nswdpc/silverstripe-mediawesome.git"
         },
         {
@@ -49,7 +41,7 @@
         "dnadesign/silverstripe-elemental-userforms": "^5",
         "dynamic/silverstripe-elemental-section-navigation": "dev-ss6",
         "firebrandhq/silverstripe-phonelink": "^4",
-        "gorriecoe/silverstripe-linkfield": "dev-ss6",
+        "nswdpc/silverstripe-linkfield": "^2",
         "innoweb/silverstripe-robots": "^6",
         "innoweb/silverstripe-social-metadata": "^9",
         "jonom/focuspoint": "^6",
@@ -71,7 +63,7 @@
         "nswdpc/silverstripe-schema-specialannouncement": "dev-ss6",
         "nswdpc/silverstripe-elemental-slider": "dev-ss6",
         "nswdpc/silverstripe-elemental-taxonomy": "dev-ss6",
-        "nswdpc/silverstripe-inline-linker": "dev-ss6",
+        "nswdpc/silverstripe-inline-linker": "^2",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "dev-ss6",
         "nswdpc/silverstripe-thereisnouserform": "dev-ss6",
         "nswdpc/silverstripe-embed": "dev-ss6",
