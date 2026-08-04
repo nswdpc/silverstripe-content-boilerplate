@@ -30,7 +30,7 @@ composer require nswdpc/silverstripe-content-boilerplate
 
 ## Maintainers
 
-+ [dpcdigital@NSWDPC:~$](https://dpc.nsw.gov.au)
+PD Web Team
 
 ## Bugtracker
 
