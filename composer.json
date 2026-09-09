@@ -31,6 +31,22 @@
         {
             "type": "vcs",
             "url": "https://github.com/nswdpc/silverstripe-elemental-section-navigation.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nswdpc/silverstripe-contentreplace.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nswdpc/silverstripe-dynamiclists.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nswdpc/silverstripe-listingpage.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/nswdpc/silverstripe-elemental-listingpagelisting.git"
         }
     ],
     "require": {
@@ -84,7 +100,11 @@
         "silverstripe/versioned": "^3",
         "silverstripe/versioned-admin": "^3",
         "symbiote/silverstripe-advancedworkflow": "^7",
+        "symbiote/silverstripe-contentreplace": "dev-ss6 as 3.0.0",
+        "symbiote/silverstripe-dynamiclists": "dev-ss6 as 3.0.0",
+        "symbiote/silverstripe-elemental-listingpagelisting": "dev-ss6 as 3.0.0",
         "symbiote/silverstripe-gridfieldextensions": "^5",
+        "symbiote/silverstripe-listingpage": "dev-ss6 as 3.0.0",
         "symbiote/silverstripe-multivaluefield": "^7",
         "unclecheese/display-logic": "^4",
         "wilr/silverstripe-googlesitemaps": "^4"
@@ -111,6 +131,7 @@
         }
     },
     "config": {
+        "sort-packages": true,
         "process-timeout": 600,
         "allow-plugins": {
             "composer/installers": true,
