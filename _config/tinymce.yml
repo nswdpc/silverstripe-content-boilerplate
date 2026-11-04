@@ -1,6 +1,6 @@
 ---
 Name: nswdpc-content-tinymce
 ---
-SilverStripe\Forms\HTMLEditor\TinyMCEConfig:
+SilverStripe\TinyMCE\TinyMCEConfig:
   editor_css:
     - 'nswdpc/silverstripe-content-boilerplate:client/static/css/editor.css'
