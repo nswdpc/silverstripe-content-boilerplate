@@ -19,51 +19,18 @@
         "content authoring",
         "user experience"
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-mediawesome.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-misdirection.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-elemental-section-navigation.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-contentreplace.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-dynamiclists.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-listingpage.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/nswdpc/silverstripe-elemental-listingpagelisting.git"
-        }
-    ],
     "require": {
         "bummzack/sortablefile": "^3",
         "dnadesign/silverstripe-elemental": "^6",
         "dnadesign/silverstripe-elemental-list": "^3",
         "dnadesign/silverstripe-elemental-virtual": "^3",
         "dnadesign/silverstripe-elemental-userforms": "^5",
-        "dynamic/silverstripe-elemental-section-navigation": "dev-ss6",
         "firebrandhq/silverstripe-phonelink": "^4",
         "nswdpc/silverstripe-linkfield": "^2",
         "innoweb/silverstripe-robots": "^6",
         "innoweb/silverstripe-social-metadata": "^9",
         "jonom/focuspoint": "^6",
         "jonom/silverstripe-text-target-length": "^2.0.4",
-        "nglasl/silverstripe-mediawesome": "dev-ss6",
-        "nglasl/silverstripe-misdirection": "dev-ss6",
         "nswdpc/silverstripe-dataobject-editable": "^2",
         "nswdpc/silverstripe-datetime-inputs": "^2",
         "nswdpc/silverstripe-elemental-banner": "^2",
@@ -72,14 +39,12 @@
         "nswdpc/silverstripe-elemental-iframe": "^2",
         "nswdpc/silverstripe-elemental-image": "^2",
         "nswdpc/silverstripe-elemental-links": "^2",
-        "nswdpc/silverstripe-elemental-mediawesome": "dev-ss6",
         "nswdpc/silverstripe-elemental-modeladmin": "^2",
         "nswdpc/silverstripe-elemental-publications": "^2",
         "nswdpc/silverstripe-elemental-quickgallery": "^2",
         "nswdpc/silverstripe-schema-specialannouncement": "^2",
         "nswdpc/silverstripe-elemental-slider": "^2",
         "nswdpc/silverstripe-elemental-taxonomy": "^2",
-        "nswdpc/silverstripe-inline-linker": "^2",
         "nswdpc/silverstripe-recaptcha-v3-userforms": "^2",
         "nswdpc/silverstripe-thereisnouserform": "^2",
         "nswdpc/silverstripe-embed": "^3",
@@ -89,7 +54,6 @@
         "silverstripe/cms": "^6",
         "silverstripe/contentreview": "^6",
         "silverstripe/errorpage": "^3",
-        "silverstripe/gridfieldqueuedexport": "^4",
         "silverstripe/htmleditor-tinymce": "^1",
         "silverstripe/lumberjack": "^4",
         "silverstripe/mimevalidator": "^4",
@@ -100,11 +64,7 @@
         "silverstripe/versioned": "^3",
         "silverstripe/versioned-admin": "^3",
         "symbiote/silverstripe-advancedworkflow": "^7",
-        "symbiote/silverstripe-contentreplace": "dev-ss6 as 3.0.0",
-        "symbiote/silverstripe-dynamiclists": "dev-ss6 as 3.0.0",
-        "symbiote/silverstripe-elemental-listingpagelisting": "dev-ss6 as 3.0.0",
         "symbiote/silverstripe-gridfieldextensions": "^5",
-        "symbiote/silverstripe-listingpage": "dev-ss6 as 3.0.0",
         "symbiote/silverstripe-multivaluefield": "^7",
         "unclecheese/display-logic": "^4",
         "wilr/silverstripe-googlesitemaps": "^4"
